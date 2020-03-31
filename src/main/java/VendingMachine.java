@@ -18,7 +18,7 @@ public interface VendingMachine {
     /**
      * Initialize the vending machine with a product.
      * @param product The product to add.
-     * @param shelfNum Shelf to select product from
+     * @param shelfNum Shelf to add product to
      */
     void addProduct(Product product, Integer shelfNum);
 
