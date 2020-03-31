@@ -7,7 +7,7 @@ public interface VendingMachine {
      * Select a product.
      * @return Tuple with the product and change.
      */
-    Optional<Tuple> order(Integer bagNumber);
+    Optional<Tuple> order(Integer shelfNumber);
 
     /**
      * Insert Coin.
